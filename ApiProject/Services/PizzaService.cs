@@ -32,6 +32,9 @@ public static class PizzaService
             return;
 
         Pizzas.Remove(pizza);
+
+        foreach(var p in Pizzas.Where(p => p.Id > id))
+            p.Id--;
     }
 
     public static void Update(Pizza pizza)
