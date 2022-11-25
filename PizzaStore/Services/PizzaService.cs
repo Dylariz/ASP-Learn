@@ -1,3 +1,7 @@
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
+
 namespace PizzaStore.Services;
 
 public class PizzaService
@@ -12,7 +16,7 @@ public class PizzaService
     public static List<Pizza> GetPizzas() 
     {
         return _pizzas;
-    } 
+    }
 
     public static Pizza? GetPizza(int id) 
     {
@@ -24,10 +28,10 @@ public class PizzaService
         _pizzas.Add(pizza);
         return pizza;
     }
-
+    
     public static Pizza UpdatePizza(Pizza update) 
     {
-        _pizzas = _pizzas.Select(pizza =>
+        var existingPizzas = _pizzas.Select(pizza =>
         {
             if (pizza.Id == update.Id)
             {
