@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlpineSkiHouse", "AlpineSki
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore", "PizzaStore\PizzaStore.csproj", "{0C36DFC8-73EA-43DC-BE71-9A0D9E0C7988}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApi", "SimpleApi\SimpleApi.csproj", "{49238F43-8960-44B5-A02B-37F85E4818E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{0C36DFC8-73EA-43DC-BE71-9A0D9E0C7988}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C36DFC8-73EA-43DC-BE71-9A0D9E0C7988}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C36DFC8-73EA-43DC-BE71-9A0D9E0C7988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49238F43-8960-44B5-A02B-37F85E4818E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49238F43-8960-44B5-A02B-37F85E4818E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49238F43-8960-44B5-A02B-37F85E4818E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49238F43-8960-44B5-A02B-37F85E4818E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
