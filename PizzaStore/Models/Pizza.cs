@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace PizzaStore;
+namespace PizzaStore.Models;
 
 public class Pizza
 {
@@ -9,8 +9,11 @@ public class Pizza
     public string? Description { get; set; }
 }
 
-class PizzaDb : DbContext
+sealed class PizzaContext : DbContext
 {
-    public PizzaDb(DbContextOptions options) : base(options) { }
+    public PizzaContext(DbContextOptions options) : base(options)
+    {
+        Database.EnsureCreated();
+    }
     public DbSet<Pizza> Pizzas { get; set; } = null!;
 }
