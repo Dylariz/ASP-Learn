@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesPizza", "RazorPagesPizza\RazorPagesPizza.csproj", "{72410501-0D44-4010-810A-94EC22AFD5B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiProject", "ApiProject\ApiProject.csproj", "{5EACFE47-AB50-4E9D-A4FA-450CD0415560}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiProjectWithMVC", "ApiProjectWithMVC\ApiProjectWithMVC.csproj", "{5EACFE47-AB50-4E9D-A4FA-450CD0415560}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlpineSkiHouse", "AlpineSkiHouse\AlpineSkiHouse.csproj", "{C8A5B1CC-DA64-4897-B29A-308AEEF82B8D}"
 EndProject

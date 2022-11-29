@@ -1,8 +1,8 @@
-using ApiProject.Models;
-using ApiProject.Services;
+using ApiProjectWithMVC.Models;
+using ApiProjectWithMVC.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ApiProject.Controllers;
+namespace ApiProjectWithMVC.Controllers;
 
 [ApiController]
 [Route("[controller]")]

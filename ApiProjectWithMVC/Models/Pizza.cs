@@ -1,4 +1,4 @@
-namespace ApiProject.Models;
+namespace ApiProjectWithMVC.Models;
 
 public class Pizza
 {

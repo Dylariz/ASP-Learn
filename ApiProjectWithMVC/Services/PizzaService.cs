@@ -1,6 +1,6 @@
-using ApiProject.Models;
+using ApiProjectWithMVC.Models;
 
-namespace ApiProject.Services;
+namespace ApiProjectWithMVC.Services;
 
 public static class PizzaService
 {
